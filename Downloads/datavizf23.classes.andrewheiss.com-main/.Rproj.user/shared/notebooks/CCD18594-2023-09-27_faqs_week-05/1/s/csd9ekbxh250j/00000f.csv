@@ -1,0 +1,3 @@
+"0","ggplot(car_counts, aes(x = drv, y = n, fill = drv)) +"
+"0","  geom_col() +"
+"0","  guides(fill = ""none"")"

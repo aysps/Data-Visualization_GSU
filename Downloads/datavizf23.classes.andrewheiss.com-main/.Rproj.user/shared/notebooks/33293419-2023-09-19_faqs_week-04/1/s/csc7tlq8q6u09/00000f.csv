@@ -1,0 +1,8 @@
+"0","gapminder_percents <- gapminder_2007 %>% "
+"0","  group_by(continent) %>% "
+"0","  summarize(n = n()) %>% "
+"0","  mutate(prop = n / sum(n))"
+"0",""
+"0","ggplot(gapminder_percents, aes(x = continent, y = prop)) +"
+"0","  geom_col() +"
+"0","  scale_y_continuous(labels = label_percent())"

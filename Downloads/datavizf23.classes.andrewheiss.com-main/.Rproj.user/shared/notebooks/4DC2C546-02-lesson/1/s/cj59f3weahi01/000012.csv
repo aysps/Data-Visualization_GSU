@@ -1,0 +1,4 @@
+"0","check_question(""JPG"", options = c(""PNG"", ""JPG"", ""PDF""), type = ""radio"", "
+"0","               button_label = ""Check answer"", q_id = 1,"
+"0","               right = ""Correct! This is a photograph, so it should be a JPG. It might seem a little tricky since there are so few colors, but it still needs to be a JPG because the black paint on the brick is actually a range of thousands of different shades of black pixels."","
+"0","               wrong = ""Not quite—this image has a lot of colors in it…"")"

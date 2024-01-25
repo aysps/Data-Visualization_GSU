@@ -1,0 +1,4 @@
+"0","check_question(c(""PNG"", ""PDF""), options = c(""PNG"", ""JPG"", ""PDF""), type = ""radio"", "
+"0","               button_label = ""Check answer"", q_id = 5,"
+"0","               right = ""Correct! Even though this is very colorful, it should be a PNG or PDF, since it’s vector-based and not a photograph. "","
+"0","               wrong = ""Not quite—this image doesn’t have a lot of colors in it…"")"

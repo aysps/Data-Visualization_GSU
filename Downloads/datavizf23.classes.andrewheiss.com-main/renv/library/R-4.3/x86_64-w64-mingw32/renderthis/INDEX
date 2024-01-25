@@ -1,0 +1,9 @@
+build_all               Build slides to multiple outputs.
+to_gif                  Render slides as a GIF file.
+to_html                 Render slides as html file.
+to_mp4                  Render slides as an MP4 video file.
+to_pdf                  Render slides as PDF file.
+to_png                  Render slides as PNG file(s).
+to_pptx                 Render slides as a PowerPoint file.
+to_social               Render png image of first slide sized for
+                        social media sharing.

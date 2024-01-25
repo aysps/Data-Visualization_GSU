@@ -1,0 +1,14 @@
+{
+  "hash": "6132b83e81e6303bf19d3d766d68c306",
+  "result": {
+    "markdown": "---\ntitle: Interactive lessons\n---\n\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.5.16/iframeResizer.min.js\" type=\"text/javascript\"></script>\n\n\nEach class session has an interactive lesson that you will work through ***after*** doing the readings and watching the lecture. These lessons are a central part of the class—they will teach you how to use {ggplot2} and other packages in the tidyverse to create beautiful and truthful visualizations with R.\n\nInteractive code sections look like this. Make changes in the text box and click on the green \"Run Code\" button to see the results. Sometimes there will be a button with a hint or solution.\n\n::: {.callout-important}\n### Your turn\n\nModify the code here to show the relationship between health and wealth for 2002 instead of 2007.\n:::\n\n\n<iframe style=\"margin: 0px auto; min-width: 100%; overflow: hidden; height: 801px;\" id=\"learnr-00-lesson-example1\" class=\"interactive\" src=\"https://andrewheiss.shinyapps.io/datavizm20_00-lesson-example/\" scrolling=\"no\" frameborder=\"no\" onload='iFrameResize({}, \"#learnr-00-lesson-example1\")'></iframe>\n\n\nIf you're curious how this works, each interactive code section is a miniature [Shiny](https://shiny.rstudio.com/) app hosted at [shinyapps.io](https://www.shinyapps.io/). Each app uses [{learnr}](https://rstudio.github.io/learnr/) to provide interactivity, and these {learnr} apps are embedded in this website with some [HTML and Javascript wizardry](https://desiree.rbind.io/blog/learnr-iframes/).\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

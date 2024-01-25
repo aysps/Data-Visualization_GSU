@@ -1,0 +1,10 @@
+breaks_right	breaks_right
+GeomFinalLabel	geom_finallabel
+GeomLinePoint	geom_linepoint
+GeomRichLegend	geom_richlegend
+geom_finallabel	geom_finallabel
+geom_linepoint	geom_linepoint
+geom_richlegend	geom_richlegend
+scale_x_date_bothalign	scale_date_align
+scale_x_date_leftalign	scale_date_align
+scale_x_date_rightalign	scale_date_align
