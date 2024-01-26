@@ -1,0 +1,6 @@
+"0","# This also isn't on CRAN, so you need to install it by running this:"
+"0","# remotes::install_github(""MattCowgill/ggdirectlabel"")"
+"0","library(ggdirectlabel)"
+"2","Error in library(ggdirectlabel) : 
+  there is no package called ‘ggdirectlabel’
+"

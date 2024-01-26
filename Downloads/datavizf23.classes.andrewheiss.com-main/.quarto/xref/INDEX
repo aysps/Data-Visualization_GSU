@@ -1,0 +1,341 @@
+{
+  "404.qmd": {
+    "404.html": "1460f888"
+  },
+  "assignment/01-exercise.qmd": {
+    "01-exercise.html": "0597d70e"
+  },
+  "assignment/01-mini-project.qmd": {
+    "01-mini-project.html": "2c3a3873"
+  },
+  "assignment/02-exercise.qmd": {
+    "02-exercise.html": "96300c28"
+  },
+  "assignment/02-mini-project.qmd": {
+    "02-mini-project.html": "be5e87c8"
+  },
+  "assignment/03-exercise.qmd": {
+    "03-exercise.html": "c3e235bc"
+  },
+  "assignment/04-exercise.qmd": {
+    "04-exercise.html": "b2f69b2d"
+  },
+  "assignment/05-exercise.qmd": {
+    "05-exercise.html": "02c62f7f"
+  },
+  "assignment/06-exercise.qmd": {
+    "06-exercise.html": "eea1f280"
+  },
+  "assignment/07-exercise.qmd": {
+    "07-exercise.html": "37862305"
+  },
+  "assignment/08-exercise.qmd": {
+    "08-exercise.html": "823e7e5a"
+  },
+  "assignment/09-exercise.qmd": {
+    "09-exercise.html": "77500652"
+  },
+  "assignment/10-exercise.qmd": {
+    "10-exercise.html": "405de437"
+  },
+  "assignment/11-exercise.qmd": {
+    "11-exercise.html": "aee7b0c5"
+  },
+  "assignment/12-exercise.qmd": {
+    "12-exercise.html": "9fb19e83"
+  },
+  "assignment/13-exercise.qmd": {
+    "13-exercise.html": "0e1446d1"
+  },
+  "assignment/14-exercise.qmd": {
+    "14-exercise.html": "83b115df"
+  },
+  "assignment/15-exercise.qmd": {
+    "15-exercise.html": "20462291"
+  },
+  "assignment/final-project.qmd": {
+    "final-project.html": "16775a6d"
+  },
+  "assignment/index.qmd": {
+    "index.html": "fc190152"
+  },
+  "content/01-content.qmd": {
+    "01-content.html": "1d7625b0"
+  },
+  "content/02-content.qmd": {
+    "02-content.html": "9de0b600"
+  },
+  "content/03-content.qmd": {
+    "03-content.html": "c6f71f87"
+  },
+  "content/04-content.qmd": {
+    "04-content.html": "3374ebf5"
+  },
+  "content/05-content.qmd": {
+    "05-content.html": "13ae3d1f"
+  },
+  "content/06-content.qmd": {
+    "06-content.html": "96268027"
+  },
+  "content/07-content.qmd": {
+    "07-content.html": "dc77c526"
+  },
+  "content/08-content.qmd": {
+    "08-content.html": "534aef0a"
+  },
+  "content/09-content.qmd": {
+    "09-content.html": "b8c1e3b4"
+  },
+  "content/10-content.qmd": {
+    "10-content.html": "bd0c0827"
+  },
+  "content/11-content.qmd": {
+    "11-content.html": "80e1953e"
+  },
+  "content/12-content.qmd": {
+    "12-content.html": "9e505216"
+  },
+  "content/13-content.qmd": {
+    "13-content.html": "0fb456d3"
+  },
+  "content/14-content.qmd": {
+    "14-content.html": "847b1b2d"
+  },
+  "content/15-content.qmd": {
+    "15-content.html": "6cfb6a70"
+  },
+  "content/index.qmd": {
+    "index.html": "b7a4b40b"
+  },
+  "example/01-example.qmd": {
+    "01-example.html": "707b6ea4"
+  },
+  "example/02-example.qmd": {
+    "02-example.html": "26929658"
+  },
+  "example/03-example.qmd": {
+    "03-example.html": "1a461a91"
+  },
+  "example/04-example.qmd": {
+    "04-example.html": "c1dfafc8"
+  },
+  "example/05-example.qmd": {
+    "05-example.html": "89c7a451"
+  },
+  "example/06-example.qmd": {
+    "06-example.html": "09b0a463"
+  },
+  "example/07-example.qmd": {
+    "07-example.html": "a8626e74"
+  },
+  "example/08-example.qmd": {
+    "08-example.html": "1551de1c"
+  },
+  "example/09-example.qmd": {
+    "09-example.html": "00bd03c3"
+  },
+  "example/10-example.qmd": {
+    "10-example.html": "afd1245c"
+  },
+  "example/11-example.qmd": {
+    "11-example.html": "1c3a050c"
+  },
+  "example/12-example.qmd": {
+    "12-example.html": "84c5d579"
+  },
+  "example/13-example.qmd": {
+    "13-example.html": "e5bf39b9"
+  },
+  "example/14-example.qmd": {
+    "14-example.html": "46474660"
+  },
+  "example/15-example.qmd": {
+    "15-example.html": "e9028b81"
+  },
+  "example/index.qmd": {
+    "index.html": "dee46580"
+  },
+  "index.qmd": {
+    "index.html": "03fbfd86"
+  },
+  "lesson/01-lesson.qmd": {
+    "01-lesson.html": "5dcc3e99"
+  },
+  "lesson/02-lesson.qmd": {
+    "02-lesson.html": "253b2e1f"
+  },
+  "lesson/03-lesson.qmd": {
+    "03-lesson.html": "090620b4"
+  },
+  "lesson/04-lesson.qmd": {
+    "04-lesson.html": "d7e23a67"
+  },
+  "lesson/05-lesson.qmd": {
+    "05-lesson.html": "2b2fdc81"
+  },
+  "lesson/06-lesson.qmd": {
+    "06-lesson.html": "73a3b9b1"
+  },
+  "lesson/07-lesson.qmd": {
+    "07-lesson.html": "3c4252df"
+  },
+  "lesson/08-lesson.qmd": {
+    "08-lesson.html": "615e8883"
+  },
+  "lesson/09-lesson.qmd": {
+    "09-lesson.html": "2be92d82"
+  },
+  "lesson/10-lesson.qmd": {
+    "10-lesson.html": "572b94bb"
+  },
+  "lesson/11-lesson.qmd": {
+    "11-lesson.html": "42e64085"
+  },
+  "lesson/12-lesson.qmd": {
+    "12-lesson.html": "49e9198e"
+  },
+  "lesson/13-lesson.qmd": {
+    "13-lesson.html": "a6bf6fd9"
+  },
+  "lesson/14-lesson.qmd": {
+    "14-lesson.html": "321e7fed"
+  },
+  "lesson/15-lesson.qmd": {
+    "15-lesson.html": "0119758d"
+  },
+  "lesson/index.qmd": {
+    "index.html": "a3e38ff5"
+  },
+  "news/2023-08-18_announcements-updates.qmd": {
+    "2023-08-18_announcements-updates.html": "b339d652"
+  },
+  "news/2023-08-18_important-r-stuff.qmd": {
+    "2023-08-18_important-r-stuff.html": "4199372b"
+  },
+  "news/2023-08-18_welcome.qmd": {
+    "2023-08-18_welcome.html": "b3831d65"
+  },
+  "news/2023-08-21_building-community.qmd": {
+    "2023-08-21_building-community.html": "8d511496"
+  },
+  "news/2023-08-21_copy-paste-tweak.qmd": {
+    "2023-08-21_copy-paste-tweak.html": "69de5461"
+  },
+  "news/2023-08-21_faqs_week-00.qmd": {
+    "2023-08-21_faqs_week-00.html": "4cdc51eb"
+  },
+  "news/2023-08-21_first-day-of-class.qmd": {
+    "2023-08-21_first-day-of-class.html": "3aab717e"
+  },
+  "news/2023-08-21_reaching-out-when-stuck.qmd": {
+    "2023-08-21_reaching-out-when-stuck.html": "4733f9f2"
+  },
+  "news/2023-08-30_faqs_week-01.qmd": {
+    "2023-08-30_faqs_week-01.html": "5ced7333"
+  },
+  "news/2023-09-05_faqs_week-02.qmd": {
+    "2023-09-05_faqs_week-02.html": "7b3397cb"
+  },
+  "news/2023-09-05_zeroes-gradebook.qmd": {
+    "2023-09-05_zeroes-gradebook.html": "dd5fc8c9"
+  },
+  "news/2023-09-12_deadlines-late-work.qmd": {
+    "2023-09-12_deadlines-late-work.html": "774b78a7"
+  },
+  "news/2023-09-12_faqs_week-03.qmd": {
+    "2023-09-12_faqs_week-03.html": "dcb86741"
+  },
+  "news/2023-09-12_general-tips.qmd": {
+    "2023-09-12_general-tips.html": "b3a8d3d0"
+  },
+  "news/2023-09-19_faqs_week-04.qmd": {
+    "2023-09-19_faqs_week-04.html": "1ec1f510"
+  },
+  "news/2023-09-27_faqs_week-05.qmd": {
+    "2023-09-27_faqs_week-05.html": "a6f64b1a"
+  },
+  "news/2023-10-03_cleaner-nicer-rmd-output.qmd": {
+    "2023-10-03_cleaner-nicer-rmd-output.html": "731dd3f4"
+  },
+  "news/2023-10-03_faqs-week-06.qmd": {
+    "2023-10-03_faqs-week-06.html": "812e4a12"
+  },
+  "news/2023-10-03_mini-project-1.qmd": {
+    "2023-10-03_mini-project-1.html": "52ec0976"
+  },
+  "news/2023-10-10_faqs-week-07.qmd": {
+    "2023-10-10_faqs-week-07.html": "a7890a62"
+  },
+  "news/2023-10-12_messy-broken-code-tips.qmd": {
+    "2023-10-12_messy-broken-code-tips.html": "46e330aa"
+  },
+  "news/2023-10-12_slow-down-do-small-things.qmd": {
+    "2023-10-12_slow-down-do-small-things.html": "11dbb1e7"
+  },
+  "news/2023-11-06_faqs-weeks-08-09-10.qmd": {
+    "2023-11-06_faqs-weeks-08-09-10.html": "e5845137"
+  },
+  "news/2023-11-06_feedback-mini-project-01.qmd": {
+    "2023-11-06_feedback-mini-project-01.html": "bda9526f"
+  },
+  "news/2023-11-06_graphics-editors.qmd": {
+    "2023-11-06_graphics-editors.html": "4769a2a3"
+  },
+  "news/2023-11-06_no-more-answer-keys.qmd": {
+    "2023-11-06_no-more-answer-keys.html": "314bf683"
+  },
+  "news/2023-11-29_faqs_week-11-12-13.qmd": {
+    "2023-11-29_faqs_week-11-12-13.html": "ced05324"
+  },
+  "news/2023-11-29_final-deadlines.qmd": {
+    "2023-11-29_final-deadlines.html": "6e7345ec"
+  },
+  "news/2023-12-13_what-next.qmd": {
+    "2023-12-13_what-next.html": "36fa799f"
+  },
+  "news/index.qmd": {
+    "index.html": "7ea9fbfe"
+  },
+  "resource/citations.qmd": {
+    "citations.html": "465ff8ed"
+  },
+  "resource/data.qmd": {
+    "data.html": "3088acbf"
+  },
+  "resource/design.qmd": {
+    "design.html": "21a236f0"
+  },
+  "resource/graphics-editors.qmd": {
+    "graphics-editors.html": "b0c56436"
+  },
+  "resource/index.qmd": {
+    "index.html": "01ccd123"
+  },
+  "resource/install.qmd": {
+    "install.html": "a8d73653"
+  },
+  "resource/markdown.qmd": {
+    "markdown.html": "487549b8"
+  },
+  "resource/r.qmd": {
+    "r.html": "acc985cd"
+  },
+  "resource/rmarkdown.qmd": {
+    "rmarkdown.html": "7a5cb8b4"
+  },
+  "resource/style.qmd": {
+    "style.html": "cbf7dc30"
+  },
+  "resource/unzipping.qmd": {
+    "unzipping.html": "48dc520e"
+  },
+  "resource/visualization.qmd": {
+    "visualization.html": "fb492001"
+  },
+  "schedule.qmd": {
+    "schedule.html": "e7c5559f"
+  },
+  "syllabus.qmd": {
+    "syllabus.html": "44e10009"
+  }
+}

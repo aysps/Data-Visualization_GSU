@@ -1,0 +1,4 @@
+"0","check_question(""JPG"", options = c(""PNG"", ""JPG"", ""PDF""), type = ""radio"", "
+"0","               button_label = ""Check answer"", q_id = 4,"
+"0","               right = ""Correct! This has a ton of colors in it and is mostly a photograph. You may have been thrown off by the text in the bottom section, or the stylized shapes of the Millennium Falcon’s windows at the top. Those shapes and the text are both vector-based, but because the majority of the image is a photogrpah, it still needs to be saved as a JPG. To keep the text nice and crisp, it needs to be exported at a high resolution."","
+"0","               wrong = ""Not quite—this image has a lot of colors in it…"")"

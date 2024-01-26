@@ -1,0 +1,6 @@
+"0","car_counts <- mpg %>% "
+"0","  group_by(drv) %>% "
+"0","  summarize(n = n())"
+"0",""
+"0","ggplot(car_counts, aes(x = drv, y = n, fill = drv)) +"
+"0","  geom_col()"
