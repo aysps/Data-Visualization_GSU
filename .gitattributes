@@ -1,0 +1,4 @@
+Downloads/datavizf23.classes.andrewheiss.com-main/_site/files/data/external_data/Rat_Sightings.csv filter=lfs diff=lfs merge=lfs -text
+Downloads/datavizf23.classes.andrewheiss.com-main/renv/library/R-4.3/x86_64-w64-mingw32/magick/libs/x64/magick.dll filter=lfs diff=lfs merge=lfs -text
+Downloads/datavizf23.classes.andrewheiss.com-main/renv/library/R-4.3/x86_64-w64-mingw32/sf/libs/x64/sf.dll filter=lfs diff=lfs merge=lfs -text
+Downloads/datavizf23.classes.andrewheiss.com-main/docs/_site/files/data/external_data/Rat_Sightings.csv filter=lfs diff=lfs merge=lfs -text
