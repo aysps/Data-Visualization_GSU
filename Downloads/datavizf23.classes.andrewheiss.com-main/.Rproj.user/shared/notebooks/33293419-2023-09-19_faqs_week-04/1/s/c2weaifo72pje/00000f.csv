@@ -1,3 +1,0 @@
-"0","ggplot(gapminder_2007, aes(x = gdpPercap)) +"
-"0","  geom_histogram(binwidth = 1000) +"
-"0","  scale_x_continuous(labels = label_dollar())"

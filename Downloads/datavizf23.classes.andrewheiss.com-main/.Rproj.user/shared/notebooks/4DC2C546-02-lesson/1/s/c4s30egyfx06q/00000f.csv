@@ -1,4 +1,0 @@
-"0","check_question(""JPG"", options = c(""PNG"", ""JPG"", ""PDF""), type = ""radio"", "
-"0","               button_label = ""Check answer"", q_id = 6,"
-"0","               right = ""Correct! This is a photograph and should be a JPG."","
-"0","               wrong = ""Not quite—this image has a lot of colors in it…"")"

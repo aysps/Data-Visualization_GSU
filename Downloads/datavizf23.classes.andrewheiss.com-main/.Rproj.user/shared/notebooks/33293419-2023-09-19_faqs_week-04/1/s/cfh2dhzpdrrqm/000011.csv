@@ -1,8 +1,0 @@
-"0","ggplot("
-"0","  gapminder_2007, "
-"0","  aes(x = gdpPercap, y = lifeExp, size = pop, color = pop)"
-"0",") +"
-"0","  geom_point() +"
-"0","  scale_x_continuous(labels = label_dollar()) +"
-"0","  scale_size_continuous(labels = label_comma()) +"
-"0","  scale_color_viridis_c(labels = label_comma())"
