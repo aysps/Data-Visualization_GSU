@@ -1,4 +1,0 @@
-"0","check_question(c(""PNG"", ""PDF""), options = c(""PNG"", ""JPG"", ""PDF""), type = ""radio"", "
-"0","               button_label = ""Check answer"", q_id = 2,"
-"0","               right = ""Correct! This is a logo with a few colors in it, so it’s vector-based. If you use a PDF of the logo, you can rescale it infinitely big or small. If you use a PNG, it will work nicely online."","
-"0","               wrong = ""Not quite—this image doesn’t have a lot of colors in it…"")"
