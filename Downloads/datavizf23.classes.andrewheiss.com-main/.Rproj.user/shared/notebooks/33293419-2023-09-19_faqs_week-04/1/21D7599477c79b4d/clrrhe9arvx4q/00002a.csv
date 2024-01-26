@@ -1,8 +1,0 @@
-"0","ggplot("
-"0","  gapminder_2007, "
-"0","  aes(x = gdpPercap, y = lifeExp, size = pop, color = continent)"
-"0",") +"
-"0","  geom_point() +"
-"0","  scale_x_log10(breaks = 500 * 2^seq(0, 9, by = 1),"
-"0","                labels = label_dollar(scale = cut_short_scale())) +"
-"0","  scale_size_continuous(labels = label_comma(scale_cut = cut_short_scale()))"

@@ -1,8 +1,0 @@
-breaks_right            Generate date breaks that align with the
-                        maximum data value
-geom_finallabel         Line with a dot on the final observation
-geom_linepoint          Line with a dot on the final observation
-geom_richlegend         Create a 'rich legend' for your ggplot2 plot.
-scale_x_date_rightalign
-                        Add a ggplot2 date scale with breaks aligned to
-                        the end of your data
