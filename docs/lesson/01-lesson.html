@@ -344,14 +344,8 @@ ul.task-list li input[type="checkbox"] {
 <p>One of the most powerful and useful aspects of RStudio is its ability to manage projects.</p>
 <p>When you first open R, it is “pointed” at some folder on your computer, and anything you do will be relative to that folder. The technical term for this is a “working directory.”</p>
 <p>When you first open RStudio, look in the area right at the top of the Console pane to see your current working directory. Most likely you’ll see something cryptic: <code>~/</code></p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../../../../files/img/lesson/working-directory.png" class="img-fluid figure-img" style="width:50.0%"></p>
-</figure>
-</div>
-</div>
+<div style="text-align:center">
+<p><img src="..\files/img/lesson/working-directory.png" class="img-fluid" style="width:30.0%"></p>
 </div>
 <p>That tilde sign (<code>~</code>) is a shortcut that stands for your user directory. On Windows this is <code>C:\Users\your_user_name\</code>; on macOS this is <code>/Users/your_user_name/</code>. With the working directory set to <code>~/</code>, R is “pointed” at that folder, and anything you save will end up in that folder, and R will expect any data that you load to be there too.</p>
 <p>It’s always best to point R at some other directory. If you don’t use RStudio, you need to manually set the working directory to where you want it with <code>setwd()</code>, and many R scripts in the wild include something like <code>setwd("C:\\Users\\bill\\Desktop\\Important research project")</code> at the beginning to change the directory. <strong>THIS IS BAD THOUGH</strong> (<a href="https://www.tidyverse.org/blog/2017/12/workflow-vs-script/">see here for an explanation</a>). If you ever move that directory somewhere else, or run the script on a different computer, or share the project with someone, the path will be wrong and nothing will run and you will be sad.</p>

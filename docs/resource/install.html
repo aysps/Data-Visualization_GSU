@@ -291,39 +291,19 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="install-r">Install R</h3>
 <p>First you need to install R itself (the engine).</p>
 <ol type="1">
-<li><p>Go to the CRAN (Collective R Archive Network) website: <a href="https://cran.r-project.org/" class="uri">https://cran.r-project.org/</a></p></li>
-<li><p>Click on “Download R for <code>XXX</code>”, where <code>XXX</code> is either Mac or Windows:</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../../../../files/img/install/install-r-links.png" class="img-fluid figure-img" style="width:50.0%"></p>
-</figure>
-</div>
-</div>
-</div>
+<li>Go to the CRAN (Collective R Archive Network) website: <a href="https://cran.r-project.org/" class="uri">https://cran.r-project.org/</a></li>
+<li>Click on “Download R for <code>XXX</code>”, where <code>XXX</code> is either Mac or Windows:</li>
+</ol>
+<p><img src="..\files/img/install/install-r-links.png" class="img-fluid"></p>
 <ul>
-<li><p>If you use macOS, scroll down to the first <code>.pkg</code> file in the list of files (in this picture, it’s <code>R-4.0.0.pkg</code>; as of right now, the current version is 4.3.0) and download it.</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../../../../files/img/install/install-r-mac.png" class="img-fluid figure-img" style="width:80.0%"></p>
-</figure>
-</div>
-</div>
-</div></li>
-<li><p>If you use Windows, click “base” (or click on the bolded “install R for the first time” link) and download it.</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../../../../files/img/install/install-r-windows.png" class="img-fluid figure-img" style="width:80.0%"></p>
-</figure>
-</div>
-</div>
-</div></li>
-</ul></li>
+<li>If you use macOS, scroll down to the first <code>.pkg</code> file in the list of files (in this picture, it’s <code>R-4.0.0.pkg</code>; as of right now, the current version is 4.3.0) and download it.</li>
+</ul>
+<p><img src="..\files/img/install/install-r-mac.png" class="img-fluid"></p>
+<ul>
+<li>If you use Windows, click “base” (or click on the bolded “install R for the first time” link) and download it.</li>
+</ul>
+<p><img src="..\files/img/install/install-r-windows.png" class="img-fluid"></p>
+<ol start="3" type="1">
 <li><p>Double click on the downloaded file (check your <code>Downloads</code> folder). Click yes through all the prompts to install like any other program.</p></li>
 <li><p>If you use macOS, <a href="https://www.xquartz.org/">download and install XQuartz</a>. You do not need to do this on Windows.</p></li>
 </ol>
@@ -332,54 +312,24 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="install-rstudio">Install RStudio</h3>
 <p>Next, you need to install RStudio, the nicer graphical user interface (GUI) for R (the dashboard). Once R and RStudio are both installed, you can ignore R and only use RStudio. RStudio will use R automatically and you won’t ever have to interact with it directly.</p>
 <ol type="1">
-<li><p>Go to the free download location on RStudio’s website: <a href="https://www.rstudio.com/products/rstudio/download/#download" class="uri">https://www.rstudio.com/products/rstudio/download/#download</a></p></li>
-<li><p>The website should automatically detect your operating system (macOS or Windows) and show a big download button for it:</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../../../../files/img/install/install-r-rstudio1.png" class="img-fluid figure-img" style="width:50.0%"></p>
-</figure>
-</div>
-</div>
-</div>
+<li>Go to the free download location on RStudio’s website: <a href="https://www.rstudio.com/products/rstudio/download/#download" class="uri">https://www.rstudio.com/products/rstudio/download/#download</a></li>
+<li>The website should automatically detect your operating system (macOS or Windows) and show a big download button for it:</li>
+</ol>
+<p><img src="..\files/img/install/install-r-rstudio1.png" class="img-fluid"></p>
 <p>If not, scroll down a little to the large table and choose the version of RStudio that matches your operating system.</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../../../../files/img/install/install-r-rstudio2.png" class="img-fluid figure-img" style="width:100.0%"></p>
-</figure>
-</div>
-</div>
-</div></li>
-<li><p>Double click on the downloaded file (again, check your <code>Downloads</code> folder). Click yes through all the prompts to install like any other program.</p></li>
+<p><img src="..\files/img/install/install-r-rstudio2.png" class="img-fluid"></p>
+<ol start="3" type="1">
+<li>Double click on the downloaded file (again, check your <code>Downloads</code> folder). Click yes through all the prompts to install like any other program.</li>
 </ol>
 <p>Double click on RStudio to run it (check your applications folder or start menu).</p>
 </section>
 <section id="install-tidyverse" class="level3">
 <h3 class="anchored" data-anchor-id="install-tidyverse">Install <code>tidyverse</code></h3>
 <p>R packages are easy to install with RStudio. Select the packages panel, click on “Install,” type the name of the package you want to install, and press enter.</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../../../../files/img/install/install-r-package-panel.png" class="img-fluid figure-img" style="width:40.0%"></p>
-</figure>
-</div>
-</div>
-</div>
+<p><img src="..\files/img/install/install-r-package-panel.png" class="img-fluid"></p>
 <p>This can sometimes be tedious when you’re installing lots of packages, though. <a href="https://www.tidyverse.org/">The tidyverse</a>, for instance, consists of dozens of packages (including {ggplot2}) that all work together. Rather than install each individually, you can install a single magical package and get them all at the same time.</p>
 <p>Go to the packages panel in RStudio, click on “Install,” type “tidyverse”, and press enter. You’ll see a bunch of output in the RStudio console as all the tidyverse packages are installed.</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../../../../files/img/install/install-r-tidyverse.png" class="img-fluid figure-img" style="width:50.0%"></p>
-</figure>
-</div>
-</div>
-</div>
+<p><img src="..\files/img/install/install-r-tidyverse.png" class="img-fluid"></p>
 <p>Notice also that RStudio will generate a line of code for you and run it: <code>install.packages("tidyverse")</code>. You can also just paste and run this instead of using the packages panel.</p>
 </section>
 <section id="install-tinytex" class="level3">
