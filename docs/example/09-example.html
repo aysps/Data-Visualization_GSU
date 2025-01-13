@@ -101,11 +101,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <meta property="og:title" content="Data Visualization with R - Annotations">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://aysps.github.io/Data-Visualization_GSU//files/social-image-f23.png">
+<meta property="og:image" content="https://datavizf23.classes.andrewheiss.com/files/social-image-f23.png">
 <meta property="og:site-name" content="Data Visualization with R">
 <meta property="og:locale" content="en_US">
 <meta property="og:image:height" content="640">
 <meta property="og:image:width" content="1280">
+<meta name="twitter:title" content="Data Visualization with R - Annotations">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://datavizf23.classes.andrewheiss.com/files/social-image-f23.png">
+<meta name="twitter:creator" content="@andrewheiss">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="640">
+<meta name="twitter:image-width" content="1280">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -152,6 +159,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li class="nav-item">
     <a class="nav-link" href="../resource/index.html" rel="" target="">
  <span class="menu-text">Resources</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../news/index.html" rel="" target="">
+ <span class="menu-text">News</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://gsudatavizf2023.slack.com" rel="" target=""><i class="bi bi-slack" role="img" aria-label="Slack">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://posit.cloud" rel="" target=""><i class="bi bi-cloud-fill" role="img" aria-label="Posit.cloud">
+</i> 
+ <span class="menu-text"></span></a>
   </li>  
 </ul>
             <div class="quarto-navbar-tools">
@@ -331,7 +352,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#clean-and-reshape-data" id="toc-clean-and-reshape-data" class="nav-link" data-scroll-target="#clean-and-reshape-data">Clean and reshape data</a></li>
   <li><a href="#plot-the-data-and-annotate" id="toc-plot-the-data-and-annotate" class="nav-link" data-scroll-target="#plot-the-data-and-annotate">Plot the data and annotate</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-git"></i></div><div class="action-links"><p><a href="https://aysps.github.io/Data-Visualization_GSU/edit/main/example/09-example.qmd" class="toc-action">Edit this page</a></p><p><a href="https://aysps.github.io/Data-Visualization_GSU/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/andrewheiss/datavizf23.classes.andrewheiss.com/edit/main/example/09-example.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/andrewheiss/datavizf23.classes.andrewheiss.com/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -340,7 +361,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="quarto-title-block d-none d-lg-block"><div><h1 class="title">Annotations</h1><button type="button" class="btn code-tools-button dropdown-toggle" id="quarto-code-tools-menu" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi"></i> Code</button><ul class="dropdown-menu dropdown-menu-end" aria-labelelledby="quarto-code-tools-menu"><li><a id="quarto-show-all-code" class="dropdown-item" href="javascript:void(0)" role="button">Show All Code</a></li><li><a id="quarto-hide-all-code" class="dropdown-item" href="javascript:void(0)" role="button">Hide All Code</a></li><li><hr class="dropdown-divider"></li><li><a id="quarto-view-source" class="dropdown-item" href="javascript:void(0)" role="button">View Source</a></li></ul></div></div>
 
 <div class="date-block bg-example text-white p-2">
-    <p class="date">Example for Monday, October 28, 2024–Friday, November 1, 2024</p>
+    <p class="date">Example for Monday, March 17, 2025–Friday, March 21, 2025</p>
 </div>
 </header>
 
@@ -461,12 +482,12 @@ Slight differences from the video
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="do">## # A tibble: 6 × 15</span></span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="do">##   country     iso2c iso3c  year status lastupdated population co2_emissions gdp_per_cap region     capital longitude latitude income     lending</span></span>
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="do">##   &lt;chr&gt;       &lt;chr&gt; &lt;chr&gt; &lt;dbl&gt; &lt;lgl&gt;  &lt;date&gt;           &lt;dbl&gt;         &lt;dbl&gt;       &lt;dbl&gt; &lt;chr&gt;      &lt;chr&gt;       &lt;dbl&gt;    &lt;dbl&gt; &lt;chr&gt;      &lt;chr&gt;  </span></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="do">## 1 Afghanistan AF    AFG    1995 NA     2024-06-28    16418912        0.0888         NA  South Asia Kabul        69.2     34.5 Low income IDA    </span></span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="do">## 2 Afghanistan AF    AFG    2015 NA     2024-06-28    33753499        0.298         567. South Asia Kabul        69.2     34.5 Low income IDA    </span></span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="do">## 3 Afghanistan AF    AFG    2008 NA     2024-06-28    26427199        0.166         419. South Asia Kabul        69.2     34.5 Low income IDA    </span></span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="do">## 4 Afghanistan AF    AFG    1996 NA     2024-06-28    17106595        0.0823         NA  South Asia Kabul        69.2     34.5 Low income IDA    </span></span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="do">## 5 Afghanistan AF    AFG    2009 NA     2024-06-28    27385307        0.240         490. South Asia Kabul        69.2     34.5 Low income IDA    </span></span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="do">## 6 Afghanistan AF    AFG    2007 NA     2024-06-28    25903301        0.110         411. South Asia Kabul        69.2     34.5 Low income IDA</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="do">## 1 Afghanistan AF    AFG    1995 NA     2023-12-18    16418912        0.0888         NA  South Asia Kabul        69.2     34.5 Low income IDA    </span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="do">## 2 Afghanistan AF    AFG    2015 NA     2023-12-18    33753499        0.298         567. South Asia Kabul        69.2     34.5 Low income IDA    </span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="do">## 3 Afghanistan AF    AFG    2008 NA     2023-12-18    26427199        0.166         419. South Asia Kabul        69.2     34.5 Low income IDA    </span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="do">## 4 Afghanistan AF    AFG    1996 NA     2023-12-18    17106595        0.0823         NA  South Asia Kabul        69.2     34.5 Low income IDA    </span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="do">## 5 Afghanistan AF    AFG    2009 NA     2023-12-18    27385307        0.240         490. South Asia Kabul        69.2     34.5 Low income IDA    </span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="do">## 6 Afghanistan AF    AFG    2007 NA     2023-12-18    25903301        0.110         411. South Asia Kabul        69.2     34.5 Low income IDA</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 <p>And here’s what it looks like now:</p>
@@ -479,7 +500,7 @@ Slight differences from the video
 <span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="do">##   &lt;chr&gt; &lt;chr&gt;       &lt;chr&gt;                      &lt;chr&gt;                   &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt; &lt;lgl&gt;      &lt;chr&gt;                </span></span>
 <span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="do">## 1 AFG   Afghanistan South Asia                 Low income                 18        26         8 FALSE      Rank changed a little</span></span>
 <span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="do">## 2 ALB   Albania     Europe &amp; Central Asia      Upper middle income        50        77        27 TRUE       Rank worsened        </span></span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="do">## 3 DZA   Algeria     Middle East &amp; North Africa Lower middle income        94       105        11 FALSE      Rank changed a little</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="do">## 3 DZA   Algeria     Middle East &amp; North Africa Lower middle income        94       106        12 FALSE      Rank changed a little</span></span>
 <span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="do">## 4 AGO   Angola      Sub-Saharan Africa         Lower middle income        62        62         0 FALSE      Rank changed a little</span></span>
 <span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="do">## 5 ARG   Argentina   Latin America &amp; Caribbean  Upper middle income        99       112        13 FALSE      Rank changed a little</span></span>
 <span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="do">## 6 ARM   Armenia     Europe &amp; Central Asia      Upper middle income        67        79        12 FALSE      Rank changed a little</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -959,8 +980,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="sourceCode" id="cb8" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Annotations"</span></span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> "2024-10-28"</span></span>
-<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="an">date_end:</span><span class="co"> "2024-11-01"</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> "2025-03-17"</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="an">date_end:</span><span class="co"> "2025-03-21"</span></span>
 <span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a><span class="in">```{r load-targets, include=FALSE}</span></span>
@@ -1185,11 +1206,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Content <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2024 by <a href="https://www.andrewheiss.com/">Andrew Heiss</a> <br> All content licensed under a <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-nc" aria-label="creative-commons-nc"></i> <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)</a></div>   
+    <div class="nav-footer-left">Content <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2023 by <a href="https://www.andrewheiss.com">Andrew Heiss</a> <br> All content licensed under a <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-nc" aria-label="creative-commons-nc"></i> <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)</a></div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
-    <div class="nav-footer-right">Made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a><br> <a href="https://github.com/aysps/Data-Visualization_2024/">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></div>
+    <div class="nav-footer-right">Made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a><br> <a href="https://www.github.com/andrewheiss/datavizf23.classes.andrewheiss.com">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></div>
   </div>
 </footer>
 
