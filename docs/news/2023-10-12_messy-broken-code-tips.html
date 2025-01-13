@@ -99,18 +99,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <meta property="og:title" content="Data Visualization with R - Tips for debugging and cleaning broken code">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://datavizf23.classes.andrewheiss.com/files/social-image-f23.png">
+<meta property="og:image" content="https://aysps.github.io/Data-Visualization_GSU//files/social-image-f23.png">
 <meta property="og:site-name" content="Data Visualization with R">
 <meta property="og:locale" content="en_US">
 <meta property="og:image:height" content="640">
 <meta property="og:image:width" content="1280">
-<meta name="twitter:title" content="Data Visualization with R - Tips for debugging and cleaning broken code">
-<meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://datavizf23.classes.andrewheiss.com/files/social-image-f23.png">
-<meta name="twitter:creator" content="@andrewheiss">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image-height" content="640">
-<meta name="twitter:image-width" content="1280">
 </head>
 
 <body class="nav-fixed">
@@ -158,20 +151,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a class="nav-link" href="../resource/index.html" rel="" target="">
  <span class="menu-text">Resources</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../news/index.html" rel="" target="">
- <span class="menu-text">News</span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://gsudatavizf2023.slack.com" rel="" target=""><i class="bi bi-slack" role="img" aria-label="Slack">
-</i> 
- <span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://posit.cloud" rel="" target=""><i class="bi bi-cloud-fill" role="img" aria-label="Posit.cloud">
-</i> 
- <span class="menu-text"></span></a>
-  </li>  
 </ul>
             <div class="quarto-navbar-tools">
 </div>
@@ -191,7 +170,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#reformat-the-code" id="toc-reformat-the-code" class="nav-link active" data-scroll-target="#reformat-the-code">Reformat the code</a></li>
   <li><a href="#run-the-code-incrementally" id="toc-run-the-code-incrementally" class="nav-link" data-scroll-target="#run-the-code-incrementally">Run the code incrementally</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/andrewheiss/datavizf23.classes.andrewheiss.com/edit/main/news/2023-10-12_messy-broken-code-tips.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/andrewheiss/datavizf23.classes.andrewheiss.com/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-git"></i></div><div class="action-links"><p><a href="https://aysps.github.io/Data-Visualization_GSU/edit/main/news/2023-10-12_messy-broken-code-tips.qmd" class="toc-action">Edit this page</a></p><p><a href="https://aysps.github.io/Data-Visualization_GSU/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -264,19 +243,19 @@ Click here for the answers
 <dl class="code-annotation-container-grid">
 <dt data-target-cell="annotated-cell-1" data-target-annotation="1">1</dt>
 <dd>
-<span data-code-annotation="1" data-code-cell="annotated-cell-1" data-code-lines="2">There’s a closing parenthesis after <code>pop)</code> that shouldn’t be there—it ends the <code>mutate()</code> too early and <code>is_africa = BLAH</code> ends up not being inside <code>mutate()</code></span>
+<span data-code-lines="2" data-code-cell="annotated-cell-1" data-code-annotation="1">There’s a closing parenthesis after <code>pop)</code> that shouldn’t be there—it ends the <code>mutate()</code> too early and <code>is_africa = BLAH</code> ends up not being inside <code>mutate()</code></span>
 </dd>
 <dt data-target-cell="annotated-cell-1" data-target-annotation="2">2</dt>
 <dd>
-<span data-code-annotation="2" data-code-cell="annotated-cell-1" data-code-lines="4">There’s an extra parenthesis at the end of <code>"Isn't Africa")))</code></span>
+<span data-code-lines="4" data-code-cell="annotated-cell-1" data-code-annotation="2">There’s an extra parenthesis at the end of <code>"Isn't Africa")))</code></span>
 </dd>
 <dt data-target-cell="annotated-cell-1" data-target-annotation="3">3</dt>
 <dd>
-<span data-code-annotation="3" data-code-cell="annotated-cell-1" data-code-lines="7">There’s an extra parenthesis after <code>median(gdp_total))</code></span>
+<span data-code-lines="7" data-code-cell="annotated-cell-1" data-code-annotation="3">There’s an extra parenthesis after <code>median(gdp_total))</code></span>
 </dd>
 <dt data-target-cell="annotated-cell-1" data-target-annotation="4">4</dt>
 <dd>
-<span data-code-annotation="4" data-code-cell="annotated-cell-1" data-code-lines="9">There’s an <code>=</code> instead of a comma in between <code>fct_inorder(continent)</code> and <code>country</code></span>
+<span data-code-lines="9" data-code-cell="annotated-cell-1" data-code-annotation="4">There’s an <code>=</code> instead of a comma in between <code>fct_inorder(continent)</code> and <code>country</code></span>
 </dd>
 </dl>
 </div>
@@ -307,19 +286,19 @@ Click here for the answers
 <dl class="code-annotation-container-grid">
 <dt data-target-cell="annotated-cell-2" data-target-annotation="1">1</dt>
 <dd>
-<span data-code-annotation="1" data-code-cell="annotated-cell-2" data-code-lines="4">Fixed!</span>
+<span data-code-lines="4" data-code-cell="annotated-cell-2" data-code-annotation="1">Fixed!</span>
 </dd>
 <dt data-target-cell="annotated-cell-2" data-target-annotation="2">2</dt>
 <dd>
-<span data-code-annotation="2" data-code-cell="annotated-cell-2" data-code-lines="8,9">Fixed!</span>
+<span data-code-lines="8,9" data-code-cell="annotated-cell-2" data-code-annotation="2">Fixed!</span>
 </dd>
 <dt data-target-cell="annotated-cell-2" data-target-annotation="3">3</dt>
 <dd>
-<span data-code-annotation="3" data-code-cell="annotated-cell-2" data-code-lines="15,16">Fixed!</span>
+<span data-code-lines="15,16" data-code-cell="annotated-cell-2" data-code-annotation="3">Fixed!</span>
 </dd>
 <dt data-target-cell="annotated-cell-2" data-target-annotation="4">4</dt>
 <dd>
-<span data-code-annotation="4" data-code-cell="annotated-cell-2" data-code-lines="20">Fixed!</span>
+<span data-code-lines="20" data-code-cell="annotated-cell-2" data-code-annotation="4">Fixed!</span>
 </dd>
 </dl>
 </div>
@@ -693,11 +672,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Content <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2023 by <a href="https://www.andrewheiss.com">Andrew Heiss</a> <br> All content licensed under a <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-nc" aria-label="creative-commons-nc"></i> <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)</a></div>   
+    <div class="nav-footer-left">Content <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2024 by <a href="https://www.andrewheiss.com/">Andrew Heiss</a> <br> All content licensed under a <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-nc" aria-label="creative-commons-nc"></i> <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)</a></div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
-    <div class="nav-footer-right">Made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a><br> <a href="https://www.github.com/andrewheiss/datavizf23.classes.andrewheiss.com">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></div>
+    <div class="nav-footer-right">Made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a><br> <a href="https://github.com/aysps/Data-Visualization_2024/">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></div>
   </div>
 </footer>
 
