@@ -101,11 +101,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <meta property="og:title" content="Data Visualization with R - Space">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://aysps.github.io/Data-Visualization_GSU//files/social-image-f23.png">
+<meta property="og:image" content="https://datavizf23.classes.andrewheiss.com/files/social-image-f23.png">
 <meta property="og:site-name" content="Data Visualization with R">
 <meta property="og:locale" content="en_US">
 <meta property="og:image:height" content="640">
 <meta property="og:image:width" content="1280">
+<meta name="twitter:title" content="Data Visualization with R - Space">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://datavizf23.classes.andrewheiss.com/files/social-image-f23.png">
+<meta name="twitter:creator" content="@andrewheiss">
+<meta name="twitter:site" content="@andrewheiss">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="640">
+<meta name="twitter:image-width" content="1280">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -343,7 +351,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#automatic-geocoding-by-address" id="toc-automatic-geocoding-by-address" class="nav-link" data-scroll-target="#automatic-geocoding-by-address">Automatic geocoding by address</a></li>
   <li><a href="#plotting-other-data-on-maps" id="toc-plotting-other-data-on-maps" class="nav-link" data-scroll-target="#plotting-other-data-on-maps">Plotting other data on maps</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-git"></i></div><div class="action-links"><p><a href="https://aysps.github.io/Data-Visualization_GSU/edit/main/example/12-example.qmd" class="toc-action">Edit this page</a></p><p><a href="https://aysps.github.io/Data-Visualization_GSU/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/andrewheiss/datavizf23.classes.andrewheiss.com/edit/main/example/12-example.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/andrewheiss/datavizf23.classes.andrewheiss.com/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -352,7 +360,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="quarto-title-block d-none d-lg-block"><div><h1 class="title">Space</h1><button type="button" class="btn code-tools-button dropdown-toggle" id="quarto-code-tools-menu" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi"></i> Code</button><ul class="dropdown-menu dropdown-menu-end" aria-labelelledby="quarto-code-tools-menu"><li><a id="quarto-show-all-code" class="dropdown-item" href="javascript:void(0)" role="button">Show All Code</a></li><li><a id="quarto-hide-all-code" class="dropdown-item" href="javascript:void(0)" role="button">Hide All Code</a></li><li><hr class="dropdown-divider"></li><li><a id="quarto-view-source" class="dropdown-item" href="javascript:void(0)" role="button">View Source</a></li></ul></div></div>
 
 <div class="date-block bg-example text-white p-2">
-    <p class="date">Example for Monday, November 18, 2024–Friday, November 22, 2024</p>
+    <p class="date">Example for Monday, April 7, 2025–Friday, April 11, 2025</p>
 </div>
 </header>
 
@@ -1349,12 +1357,12 @@ Slight differences from the video
 <span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a><span class="do">## # A tibble: 6 × 13</span></span>
 <span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a><span class="do">##   country                     iso2c iso3c  year life_expectancy status lastupdated region                    capital longitude latitude income lending</span></span>
 <span id="cb46-4"><a href="#cb46-4" aria-hidden="true" tabindex="-1"></a><span class="do">##   &lt;chr&gt;                       &lt;chr&gt; &lt;chr&gt; &lt;dbl&gt;           &lt;dbl&gt; &lt;lgl&gt;  &lt;date&gt;      &lt;chr&gt;                     &lt;chr&gt;       &lt;dbl&gt;    &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;  </span></span>
-<span id="cb46-5"><a href="#cb46-5" aria-hidden="true" tabindex="-1"></a><span class="do">## 1 Afghanistan                 AF    AFG    2015            62.7 NA     2024-06-28  South Asia                Kabul       69.2      34.5 Low i… IDA    </span></span>
-<span id="cb46-6"><a href="#cb46-6" aria-hidden="true" tabindex="-1"></a><span class="do">## 2 Africa Eastern and Southern ZH    AFE    2015            61.9 NA     2024-06-28  Aggregates                &lt;NA&gt;        NA        NA   Aggre… Aggreg…</span></span>
-<span id="cb46-7"><a href="#cb46-7" aria-hidden="true" tabindex="-1"></a><span class="do">## 3 Africa Western and Central  ZI    AFW    2015            56.2 NA     2024-06-28  Aggregates                &lt;NA&gt;        NA        NA   Aggre… Aggreg…</span></span>
-<span id="cb46-8"><a href="#cb46-8" aria-hidden="true" tabindex="-1"></a><span class="do">## 4 Albania                     AL    ALB    2015            78.6 NA     2024-06-28  Europe &amp; Central Asia     Tirane      19.8      41.3 Upper… IBRD   </span></span>
-<span id="cb46-9"><a href="#cb46-9" aria-hidden="true" tabindex="-1"></a><span class="do">## 5 Algeria                     DZ    DZA    2015            75.6 NA     2024-06-28  Middle East &amp; North Afri… Algiers      3.05     36.7 Lower… IBRD   </span></span>
-<span id="cb46-10"><a href="#cb46-10" aria-hidden="true" tabindex="-1"></a><span class="do">## 6 American Samoa              AS    ASM    2015            NA   NA     2024-06-28  East Asia &amp; Pacific       Pago P…   -171.      -14.3 Upper… Not cl…</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb46-5"><a href="#cb46-5" aria-hidden="true" tabindex="-1"></a><span class="do">## 1 Afghanistan                 AF    AFG    2015            62.7 NA     2023-12-18  South Asia                Kabul       69.2      34.5 Low i… IDA    </span></span>
+<span id="cb46-6"><a href="#cb46-6" aria-hidden="true" tabindex="-1"></a><span class="do">## 2 Africa Eastern and Southern ZH    AFE    2015            61.9 NA     2023-12-18  Aggregates                &lt;NA&gt;        NA        NA   Aggre… Aggreg…</span></span>
+<span id="cb46-7"><a href="#cb46-7" aria-hidden="true" tabindex="-1"></a><span class="do">## 3 Africa Western and Central  ZI    AFW    2015            56.2 NA     2023-12-18  Aggregates                &lt;NA&gt;        NA        NA   Aggre… Aggreg…</span></span>
+<span id="cb46-8"><a href="#cb46-8" aria-hidden="true" tabindex="-1"></a><span class="do">## 4 Albania                     AL    ALB    2015            78.6 NA     2023-12-18  Europe &amp; Central Asia     Tirane      19.8      41.3 Upper… IBRD   </span></span>
+<span id="cb46-9"><a href="#cb46-9" aria-hidden="true" tabindex="-1"></a><span class="do">## 5 Algeria                     DZ    DZA    2015            75.6 NA     2023-12-18  Middle East &amp; North Afri… Algiers      3.05     36.7 Lower… IBRD   </span></span>
+<span id="cb46-10"><a href="#cb46-10" aria-hidden="true" tabindex="-1"></a><span class="do">## 6 American Samoa              AS    ASM    2015            NA   NA     2023-12-18  East Asia &amp; Pacific       Pago P…   -171.      -14.3 Upper… Not cl…</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 <p>We have a bunch of columns here, but we care about two in particular: life expectancy, and the ISO3 code. This three-letter code is a standard system for identifying countries (<a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3">see the full list here</a>), and that column will let us combine this World Bank data with the global shapefile, which also has a column for the ISO3 code.</p>
@@ -1783,8 +1791,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="sourceCode" id="cb51" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Space"</span></span>
-<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> "2024-11-18"</span></span>
-<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a><span class="an">date_end:</span><span class="co"> "2024-11-22"</span></span>
+<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> "2025-04-07"</span></span>
+<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a><span class="an">date_end:</span><span class="co"> "2025-04-11"</span></span>
 <span id="cb51-5"><a href="#cb51-5" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb51-6"><a href="#cb51-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb51-7"><a href="#cb51-7" aria-hidden="true" tabindex="-1"></a><span class="in">```{r load-targets, include=FALSE}</span></span>
@@ -2570,11 +2578,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Content <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2024 by <a href="https://www.andrewheiss.com/">Andrew Heiss</a> <br> All content licensed under a <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-nc" aria-label="creative-commons-nc"></i> <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)</a></div>   
+    <div class="nav-footer-left">Content <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2023 by <a href="https://www.andrewheiss.com">Andrew Heiss</a> <br> All content licensed under a <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-nc" aria-label="creative-commons-nc"></i> <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)</a></div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
-    <div class="nav-footer-right">Made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a><br> <a href="https://github.com/aysps/Data-Visualization_2024/">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></div>
+    <div class="nav-footer-right">Made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a><br> <a href="https://aysps.github.io/Data-Visualization_GSU/">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></div>
   </div>
 </footer>
 

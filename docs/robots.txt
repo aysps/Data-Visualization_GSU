@@ -1,1 +1,1 @@
-Sitemap: https://aysps.github.io/Data-Visualization_GSU/sitemap.xml
+Sitemap: https://datavizf23.classes.andrewheiss.com/sitemap.xml
